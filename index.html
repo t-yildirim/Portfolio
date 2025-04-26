@@ -225,7 +225,7 @@
                         <i class="uil uil-brackets-curly skills__icon"></i>
                         <div>
                             <h1 class="skills__title">Flutter Development</h1>
-                            <span class="skills__subtitle">More than 2 years of experience</span>
+                            <span class="skills__subtitle">More than 5 years of experience</span>
                         </div>
                     </div>
 
@@ -294,62 +294,89 @@
             <h2 class="section__title">Portfolio</h2>
             <span class="section__subtitle">Most recent work</span>
 
-            <div data-aos="fade-right" class="portfolio__container container swiper-container">
-                <div class="swiper-wrapper">
+            <div class="portfolio__container container">
+                <div class="portfolio__content">
                     <!--==================== PORTFOLIO 1 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="https://user-images.githubusercontent.com/37796466/112643647-294b8680-8e77-11eb-9137-2f7cc5c050d2.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
+                    <div class="portfolio__item">
+                        <div class="portfolio__img-container">
+                            <img src="https://user-images.githubusercontent.com/37796466/112643647-294b8680-8e77-11eb-9137-2f7cc5c050d2.png" alt="" class="portfolio__img">
+                        </div>
+                        <div class="portfolio__info">
                             <h3 class="portfolio__title">Real-time Chat Application with Firebase</h3>
-                            <p class="portfolio__description">Developed a real-time chat application using Flutter and Firebase Firestore. Implemented features such as user authentication, 
-                                instant message delivery, and real-time updates with StreamBuilder. Focused on a responsive and intuitive UI, enabling users to send and receive messages seamlessly. </p>
-                            <a href="#" class="button button--flex button--small portfolio_-button">
-                                Read
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!--==================== PORTFOLIO 2 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="/assets/img/register.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Login & Registration Screen (Authentication Flow)</h3>
-                            <p class="portfolio__description">Designed a user-friendly login and registration flow. Implemented form validation, error handling, and animated screen transitions. Integrated session management using Firebase Authentication.</p>
-                            <a href="#" class="button button--flex button--small portfolio_-button">
-                                Read
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!--==================== PORTFOLIO 3 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="/assets/img/chunk.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Responsive Design </h3>
-                            <p class="portfolio__description">Developed a dynamic news reading app that adapts to both mobile and tablet devices. Implemented REST API integration for fetching articles and added offline caching functionality.
+                            <p class="portfolio__description">
+                                Developed a real-time chat application using Flutter and Firebase Firestore. 
+                                <br><br>
+                                <strong>Key Features:</strong>
+                                <br>
+                                ✅ User Authentication
+                                <br>
+                                ✅ Real-time Message Delivery
+                                <br>
+                                ✅ StreamBuilder for Live Updates
+                                <br>
+                                ✅ Responsive UI Design
+                                <br>
+                                ✅ Message History
+                                <br>
+                                ✅ User Profiles
                             </p>
-                            <a href="#" class="button button--flex button--small portfolio_-button">
-                                Read
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__item">
+                        <div class="portfolio__img-container">
+                            <img src="/assets/img/register.png" alt="" class="portfolio__img">
+                        </div>
+                        <div class="portfolio__info">
+                            <h3 class="portfolio__title">Login & Registration Screen</h3>
+                            <p class="portfolio__description">
+                                Designed a user-friendly login and registration flow with comprehensive features.
+                                <br><br>
+                                <strong>Key Features:</strong>
+                                <br>
+                                ✅ Form Validation
+                                <br>
+                                ✅ Error Handling
+                                <br>
+                                ✅ Animated Transitions
+                                <br>
+                                ✅ Firebase Authentication
+                                <br>
+                                ✅ Session Management
+                                <br>
+                                ✅ Password Recovery
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__item">
+                        <div class="portfolio__img-container">
+                            <img src="/assets/img/chunk.png" alt="" class="portfolio__img">
+                        </div>
+                        <div class="portfolio__info">
+                            <h3 class="portfolio__title">Responsive News App</h3>
+                            <p class="portfolio__description">
+                                Developed a dynamic news reading app that adapts to both mobile and tablet devices.
+                                <br><br>
+                                <strong>Key Features:</strong>
+                                <br>
+                                ✅ REST API Integration
+                                <br>
+                                ✅ Offline Caching
+                                <br>
+                                ✅ Responsive Design
+                                <br>
+                                ✅ Category Filtering
+                                <br>
+                                ✅ Search Functionality
+                                <br>
+                                ✅ Bookmark System
+                            </p>
                         </div>
                     </div>
                 </div>
-
-
-                <!-- Add Arrows -->
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
-
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
             </div>
         </section>
 
@@ -375,79 +402,68 @@
         <section class="testimonial section">
             <h2 class="section__title">Testimonial</h2>
             <span class="section__subtitle">My client saying</span>
-            <span class="section__subtitle swiper-error">Slide here to see next>>></span>
 
-            <div data-aos="fade-in" class="testimonial__container container swiper-container">
-                <div class="swiper-wrapper">
-
+            <div class="testimonial__container container">
+                <div class="testimonial__content">
                     <!--==================== TESTIMONIAL 1 ====================-->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="https://www.nicepng.com/png/detail/856-8561250_profile-pic-circle-girl.png" alt="" class="testimonial__img">
-
-                                <div>
-                                    <h3 class="testimonial__name">Jelena Jukonkovic</h3>
-                                    <span class="testimonial__client">Client</span>
-                                </div>
-                            </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__img-container">
+                            <img src="https://www.nicepng.com/png/detail/856-8561250_profile-pic-circle-girl.png" alt="" class="testimonial__img">
                         </div>
-                        <p class="testimonial__description">
-                            I get a good impression, I carry out my project with all the possible quality and attention
-                            and support 24 hours a day.</p>
+                        <div class="testimonial__info">
+                            <h3 class="testimonial__name">Jelena Jukonkovic</h3>
+                            <span class="testimonial__client">Client</span>
+                            <p class="testimonial__description">
+                                I get a good impression, I carry out my project with all the possible quality and attention
+                                and support 24 hours a day.
+                            </p>
+                        </div>
                     </div>
+
                     <!--==================== TESTIMONIAL 2 ====================-->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="https://www.pngitem.com/pimgs/m/404-4042710_circle-profile-picture-png-transparent-png.png" alt="" class="testimonial__img">
-
-                                <div>
-                                    <h3 class="testimonial__name">Elthim John</h3>
-                                    <span class="testimonial__client">Client</span>
-                                </div>
-                            </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__img-container">
+                            <img src="https://www.pngitem.com/pimgs/m/404-4042710_circle-profile-picture-png-transparent-png.png" alt="" class="testimonial__img">
                         </div>
-                        <p class="testimonial__description">
-                            It's always a pleasure to work with Tuncay Yildirim, he brings 100% to each project and gets work
-                            done when
-                            it's needed the most.</p>
+                        <div class="testimonial__info">
+                            <h3 class="testimonial__name">Elthim John</h3>
+                            <span class="testimonial__client">Client</span>
+                            <p class="testimonial__description">
+                                It's always a pleasure to work with Tuncay Yildirim, he brings 100% to each project and gets work
+                                done when it's needed the most.
+                            </p>
+                        </div>
                     </div>
+
                     <!--==================== TESTIMONIAL 3 ====================-->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="https://img.freepik.com/free-vector/tiktok-profile-picture-template_742173-4482.jpg?semt=ais_hybrid&w=740" alt="" class="testimonial__img">
-
-                                <div>
-                                    <h3 class="testimonial__name">Brian Cox</h3>
-                                    <span class="testimonial__client">Client</span>
-                                </div>
-                            </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__img-container">
+                            <img src="https://img.freepik.com/free-vector/tiktok-profile-picture-template_742173-4482.jpg?semt=ais_hybrid&w=740" alt="" class="testimonial__img">
                         </div>
-                        <p class="testimonial__description">
-                            He's a good programmer, I carry out my project with all the possible quality. </p>
+                        <div class="testimonial__info">
+                            <h3 class="testimonial__name">Brian Cox</h3>
+                            <span class="testimonial__client">Client</span>
+                            <p class="testimonial__description">
+                                He's a good programmer, I carry out my project with all the possible quality.
+                            </p>
+                        </div>
                     </div>
-                    <!--==================== TESTIMONIAL 4 ====================-->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="/assets/img/testimonial2.jpg" alt="" class="testimonial__img">
 
-                                <div>
-                                    <h3 class="testimonial__name">Matt Robinson</h3>
-                                    <span class="testimonial__client">Client</span>
-                                </div>
-                            </div>
+                    <!--==================== TESTIMONIAL 4 ====================-->
+                    <div class="testimonial__item">
+                        <div class="testimonial__img-container">
+                            <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA3L2pvYjEwNjAtMTQucG5n.png" alt="" class="testimonial__img">
                         </div>
-                        <p class="testimonial__description">
-                            He's an amazing flutter developer, he has a deep understanding about his sphere, and delivers
-                            great result.</p>
+                        <div class="testimonial__info">
+                            <h3 class="testimonial__name">Matt Robinson</h3>
+                            <span class="testimonial__client">Client</span>
+                            <p class="testimonial__description">
+                                He's an amazing flutter developer, he has a deep understanding about his sphere, and delivers
+                                great result.
+                            </p>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Add Pagination -->
-                <div class="swiper-pagination swiper-pagination-testimonial"></div>
             </div>
         </section>
 
@@ -479,9 +495,9 @@
                     <div class="contact__information">
                         <i class="uil uil-whatsapp contact__icon"></i>
                         <div>
-                            <h3 class="contact__title">WhatsApp</h3>
+                            <h3 class="contact__title">WhatsApp <i class="uil uil-whatsapp fire-text"></i></h3>
                             <span class="contact__subtitle">
-                                <a href="https://wa.me/+905423518786" target="_blank">Start a Conversation</a>
+                                <a href="https://wa.me/+905423518786" target="_blank" class="fire-text">Start a Conversation</a>
                             </span>
                         </div>
                     </div>
